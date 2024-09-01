@@ -10,7 +10,7 @@ app.use(cors());
 
 // Initialize Replicate with your API token
 const replicate = new Replicate({
-    auth: 'r8_JuxPnGhwRIT03guKxNmXYQUZKB0Z9nE053sl1', // Use environment variable for API token
+    auth: '', // Use environment variable for API token
 });
 
 // Define directories
